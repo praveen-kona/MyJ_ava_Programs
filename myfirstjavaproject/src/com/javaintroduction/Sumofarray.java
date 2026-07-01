@@ -20,8 +20,7 @@ public class Sumofarray
 	public static void main(String[] args) 
 	{	
 		Sumofarray s1=new Sumofarray();
-		int res=s1.arraysum();
-		System.out.println(res);
+		System.out.println(s1.arraysum());
 		
 	}
 

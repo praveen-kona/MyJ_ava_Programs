@@ -28,7 +28,7 @@ public class AssignmentOperators {
 
 	public static void main(String[] args) 
 	{
-		Assign a1=new Assign(2);
+		Assign a=new Assign(2);
 
 	}
 
