@@ -42,3 +42,38 @@ Create two student objects and display their details*/
 	}
 
 }
+
+/* class Student
+{
+	int student_ID;
+	String name;
+	String address;
+	int age;
+	void display(int student_ID,String name, String address, int age)
+	{
+		System.out.println("Student ID : " + student_ID);
+	    System.out.println("Name       : " + name);
+	    System.out.println("Address    : " + address);
+	    System.out.println("Age        : " + age);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Problem: Create a Student class with instance variables 
+Student ID, name
+ ,Address
+ and age .
+Create two student objects and display their details
+		Student s1=new Student();
+	
+		Student s2=new Student();
+
+		
+		s1.display(1,"praveen","2-40,Ilaparru,krishna dt,Andhra Pradesh",20);
+		s2.display(1,"praveen","2-40,Ilaparru,krishna dt,Andhra Pradesh",20);
+		
+		
+
+	}
+
+} */
