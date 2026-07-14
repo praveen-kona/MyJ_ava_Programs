@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package Arrays;
 
 public class MaxArray
 {

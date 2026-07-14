@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package Strings;
 
 public class Stringmethods {
 

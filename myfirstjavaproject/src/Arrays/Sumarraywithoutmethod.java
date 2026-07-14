@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package Arrays;
 import java.util.Scanner;
 public class Sumarraywithoutmethod 
 {
