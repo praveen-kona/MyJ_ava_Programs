@@ -18,7 +18,7 @@ public class RemoveDuplicatesFromSortedArray
     }
     public static void main(String[] args)
     {
-        int[] arr={2,2,3,3,4,4,5,5,6,6};
+        int[] arr={2,3,2,4,3,6};
          System.out.println("array elemnts before removing duplicate elments: ");
         for(int i=0;i<arr.length;i++)
         {

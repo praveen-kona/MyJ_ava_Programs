@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package DailyPractice;
 
 public class DailyPractice1 {
 	void displayAccount()

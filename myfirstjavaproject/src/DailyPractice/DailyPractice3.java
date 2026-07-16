@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package DailyPractice;
 import java.util.Scanner;
 
 public class DailyPractice3 {

@@ -1,4 +1,4 @@
-package com.javaintroduction;
+package DailyPractice;
 
 public class Dailypractice2 {
 
