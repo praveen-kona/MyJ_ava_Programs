@@ -20,7 +20,12 @@ public class Stringmethods {
 		System.out.println(s.isEmpty());
 		System.out.println(s.isBlank());
 		System.out.println(s.concat(" hi"));
-		String[] k=s.split(",");
+		String s1="hi hello";
+		String[] k=s1.split(",");
+		for(int i=0;i<k.length;i++)
+		{
+			System.out.print(k[i]+" ");
+		}
 		System.out.println(k);
 
 	}

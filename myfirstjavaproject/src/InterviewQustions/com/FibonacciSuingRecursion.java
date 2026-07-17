@@ -17,6 +17,7 @@ public class FibonacciSuingRecursion {
 		{
 			System.out.println(fibo(i));
 		}
+		System.out.println(fibo(7));
 	}
 
 }
