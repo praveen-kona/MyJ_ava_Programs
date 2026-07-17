@@ -12,6 +12,7 @@ public class PalindromeOfString {
 			sb.append(s2.charAt(i));
 		}
 		String s3=sb.toString();
+		System.out.println(s3);
 		if(s2.equals(s3))
 		{
 			System.out.println("palindrome");
