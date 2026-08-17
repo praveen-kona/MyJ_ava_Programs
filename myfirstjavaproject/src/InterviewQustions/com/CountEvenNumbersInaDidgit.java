@@ -25,7 +25,8 @@ public class CountEvenNumbersInaDidgit {
 	public static void main(String[] args) {
 		
 		
-System.out.println(method());
+int n=method();
+System.out.println(n);
 	}
 
 }
