@@ -8,7 +8,7 @@ public class PrintAsciivalue {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter any charcter:");
 		char ch=sc.next().charAt(0);
-		int ascii=(int)ch;
+		int ascii=ch;
 		System.out.println("Ascii value is :"+ascii);
 		
 		

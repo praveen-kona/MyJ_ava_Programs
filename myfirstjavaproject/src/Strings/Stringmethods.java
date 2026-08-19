@@ -14,8 +14,8 @@ public class Stringmethods {
 		System.out.println(s.concat(" hello"));
 		System.out.println(s.startsWith("P"));
 		System.out.println(s.endsWith("n"));
-		System.out.println(s.indexOf("n"));
-		System.out.println(s.lastIndexOf("n"));
+		System.out.println(s.indexOf("e"));
+		System.out.println(s.lastIndexOf("e"));
 		System.out.println(s.trim());
 		System.out.println(s.isEmpty());
 		System.out.println(s.isBlank());
@@ -26,7 +26,7 @@ public class Stringmethods {
 		{
 			System.out.print(k[i]+" ");
 		}
-		System.out.println(k);
+		
 
 	}
 

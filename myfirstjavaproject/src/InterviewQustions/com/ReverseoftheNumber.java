@@ -13,21 +13,24 @@ public class ReverseoftheNumber {
 		System.out.println("revrse of the number is:"+rev);
 		int n=4321;
 		String s=Integer.toString(n);
-		String s1="";
+		
+		
 		for(int i=s.length()-1;i>=0;i--)
 		{
-			s1=s1+s.charAt(i);
+			System.out.print(s.charAt(i)+" ");
 		}
-		System.out.println(s1);
 		
+		
+		System.out.println();
 		
 		StringBuilder sb=new StringBuilder();
 		for(int i=s.length()-1;i>=0;i--)
 		{
 			sb.append(s.charAt(i));
 		}
+		System.out.println(sb);
 		String s3=sb.toString();
-		System.out.println(s3);
+		System.out.print(s3);
 		
 	}
 
