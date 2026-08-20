@@ -4,11 +4,13 @@ class VariblesConfusion
 {
     int a=10;
     static int k=11;
-    static void hello(int n)
+    static void hello(int n,	VariblesConfusion m1)// for accesinng instance dat in static area with one object//
     {
-        
+        System.out.println(k);
         System.out.println(n);
         System.out.println("hello");
+        System.out.println(m1.a);
+       
     }
     public void Main(int x)
     {
@@ -23,6 +25,7 @@ class VariblesConfusion
         System.out.println(m1.a);
         m1.Main(20);
         int l=30;
-        VariblesConfusion.hello(l);
+        VariblesConfusion.hello(l,m1);// for accesinng instance dat in static area with one object//
+
     }
 }
