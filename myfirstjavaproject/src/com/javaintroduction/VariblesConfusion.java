@@ -10,13 +10,17 @@ class VariblesConfusion
         System.out.println(n);
         System.out.println("hello");
         System.out.println(m1.a);
+        
+        System.out.println();
        
     }
+   
     public void Main(int x)
     {
         System.out.println(a);
         System.out.println(x);
         System.out.println(k);
+        System.out.println();
     }
     public static void main(String[] arhgs)
     {
