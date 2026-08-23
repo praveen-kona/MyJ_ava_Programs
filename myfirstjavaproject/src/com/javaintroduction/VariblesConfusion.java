@@ -5,7 +5,7 @@ class VariblesConfusion
     int a=10;
     static int k=11;
     static void hello(int n,	VariblesConfusion m1)// for accesinng instance dat in static area with one object//
-    {
+    {  
         System.out.println(k);
         System.out.println(n);
         System.out.println("hello");
