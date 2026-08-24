@@ -1,4 +1,4 @@
-package DailyPractice;
+package DayProgress;
 
 public class Day4Task2 {
 
@@ -7,7 +7,7 @@ public class Day4Task2 {
 		 StringBuilder sb=new StringBuilder("hello");
 		sb.append(" java");
 		// sb=new StringBuilder("world");  cannot reassign;
-		// sb=new StringBuilder("world");
+		//  	sb=new StringBuilder("world");
 		System.out.println(sb);
 		String str=sb.toString();
 		for(int i=0;i<str.length();i++)
