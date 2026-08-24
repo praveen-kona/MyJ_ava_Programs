@@ -11,6 +11,9 @@ public class Day4Task13 {
 		String str1="h";
 		char ch1=str1.charAt(0);
 		System.out.println(ch1);
+		
+		//char ch=str1.charAt(0)
+		//char ch=str1.charAt(0)
 
 	}
 
