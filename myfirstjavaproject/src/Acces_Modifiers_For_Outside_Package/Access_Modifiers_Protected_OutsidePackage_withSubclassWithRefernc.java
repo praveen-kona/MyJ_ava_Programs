@@ -7,10 +7,16 @@ public class Access_Modifiers_Protected_OutsidePackage_withSubclassWithRefernc e
 		super(roll);
 		System.out.println(age);
 	}
+	public void hell()
+	{
+		System.out.println(x);
+	}
 	public static void main(String[] args)
 	{
 		Access_Modifiers_Protected_OutsidePackage_withSubclassWithRefernc a1=new Access_Modifiers_Protected_OutsidePackage_withSubclassWithRefernc(20,30);
 		a1.printRoll();
+		a1.hell();
+		System.out.println(a1.x);
 	}
 
 }

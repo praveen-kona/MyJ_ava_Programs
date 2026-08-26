@@ -3,6 +3,7 @@ package AccessModifiers;
 public class Access_Modifiers_Protected 
 {
 	protected int roll;
+	protected int x=10;
 	protected Access_Modifiers_Protected(int roll)
 	{
 		this.roll=roll;
