@@ -5,8 +5,8 @@ public class SecondLargest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr= {5,1,2,3,4};
-		int max=arr[0];
-		int second_max=arr[1];
+		int max=Integer.MIN_VALUE;
+		int second_max=Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++)
 		{
 			if(arr[i]>max)
