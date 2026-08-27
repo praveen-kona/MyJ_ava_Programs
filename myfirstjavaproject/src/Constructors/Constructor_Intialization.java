@@ -5,8 +5,9 @@ class Employee {
     int salary;
     String department;
 
-    Employee() {
-        name = "Unknown";
+    Employee() 
+    {
+        name = "Unknown!";
         salary = 0;
         department = "Not Assigned";
     }
