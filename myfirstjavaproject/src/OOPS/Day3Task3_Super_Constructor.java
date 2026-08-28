@@ -1,7 +1,7 @@
 	package OOPS;
 	class Parent_3
 	{
-		private int a;// can acces using methods 
+		private int a; 
 		private int y=10;//cant acces private vaibrl in child class
 		Parent_3()
 		{
@@ -19,11 +19,11 @@
 		int b;
 		Child_3()
 		{
-			super();
+			super(30);
 		}
 		Child_3(int b)
 		{
-			super(30);
+			
 			this.b=b;
 			System.out.println(this.b);
 		}
