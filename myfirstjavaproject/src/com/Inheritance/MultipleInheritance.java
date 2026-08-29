@@ -3,14 +3,34 @@ interface Sup
 {
 	public static final int x=10;
 	public  abstract void getx();
+	void hell();
+	default void hello()
+	{
+		System.out.println("parent");
+	}
 }
 interface Sup2
 {
 	public static final int y=20;
 	public abstract void gety();
+	void hell();
+	default void hello()
+	{
+		System.out.println("child");
+	}
 }
 class Sub implements Sup,Sup2
 {
+	public void hello()
+	{
+		System.out.println("class");
+		Sup.super.hello();
+		Sup2.super.hello();
+	}
+	public void hell()
+	{
+		System.out.println("hell");
+	}
 	public void getx()
 	{
 		System.out.println(x);
@@ -32,6 +52,7 @@ public class MultipleInheritance {
 		s.getx();
 		s.gety();
 		s.add();
+		s.hello();
 
 	}
 
