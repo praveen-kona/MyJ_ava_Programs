@@ -31,6 +31,13 @@ interface C_2
 		System.out.println("j");
 	}
 }
+interface T extends C_1,C_2
+{
+	default void showC()
+	{
+		System.out.println(" heloo c_2");
+	}
+}
 class D_1 extends B_1 implements C_1,C_2
 {
 	void showD()

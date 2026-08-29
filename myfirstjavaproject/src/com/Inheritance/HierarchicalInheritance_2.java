@@ -32,6 +32,7 @@ public class HierarchicalInheritance_2 {
 		c.eat();
 		c.meow();
 		
+		
 
 	}
 

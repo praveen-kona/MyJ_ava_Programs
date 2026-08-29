@@ -7,6 +7,7 @@ interface Fare
 	}
 }
 
+
 // single 
 class Car extends Vehicle 
 {
