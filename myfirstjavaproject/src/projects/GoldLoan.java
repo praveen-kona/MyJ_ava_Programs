@@ -1,16 +1,16 @@
 package projects;
 
-public class CarLoan extends LoanImpl 
-{
-	void getCarLoanDocInfo()
+public class GoldLoan extends LoanImpl{
+
+	void getGoldLoanDocInfo()
 	{
-		System.out.println("All the Car loan documents verified successfully !");
+		System.out.println("All the Gold loan documents verified successfully !");
 	}
 
 	@Override
     public double getLoanROI()
 	{
-		double roi=7.5;
+		double roi=8.5;
 		int cibil=getCibilScore();
 		if(cibil>=300 && cibil <=549)
 		{
@@ -41,20 +41,20 @@ public class CarLoan extends LoanImpl
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Welcome to your Car Loan Banking !");
+		System.out.println("Welcome to your Gold Loan Banking !");
 		
-		CarLoan cl=new CarLoan();
-		double salary=cl.getCustomerSalary();
-		int age=cl.getCustomerAge();
-		int cibil=cl.getCibilScore();
+		GoldLoan gl=new GoldLoan();
+		double salary=gl.getCustomerSalary();
+		int age=gl.getCustomerAge();
+		int cibil=gl.getCibilScore();
 		if(salary>=500000.00 && age >=23 && (cibil>=300 && cibil <=900))
 		{
 			System.out.println("Basic Information is validated check personal details !");
-			if(cl.isPhoneValid() && cl.isAadharValid() && cl.isPanValid())
+			if(gl.isPhoneValid() && gl.isAadharValid() && gl.isPanValid())
 			{
 				System.out.println("Details are good and Loan got approved !");
-				System.out.println("Your Laon ROI is : "+cl.getLoanROI());
-				cl.getCarLoanDocInfo();
+				System.out.println("Your Laon ROI is : "+gl.getLoanROI());
+				gl.getGoldLoanDocInfo();
 			}
 			else
 			{
@@ -63,7 +63,7 @@ public class CarLoan extends LoanImpl
 		}
 		else
 		{
-			System.err.println("your not eligible for Car loan and your loan got rejected !");
+			System.err.println("your not eligible for Gold loan and your loan got rejected !");
 		}
 	}
 

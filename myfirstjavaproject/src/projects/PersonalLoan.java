@@ -1,5 +1,5 @@
 package projects;
-import java.util.Scanner;
+
 public class PersonalLoan extends LoanImpl
 {
 	void getPersonalLaonDocInfo()
