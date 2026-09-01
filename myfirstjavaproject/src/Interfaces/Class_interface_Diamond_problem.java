@@ -7,11 +7,11 @@ interface A_2
 	}
 }
 interface B_2 extends A_2
-{
+{	
 	
 }
 interface C_2 extends A_2
-{
+{	
 	
 }
 
