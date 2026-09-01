@@ -12,7 +12,7 @@ public class AbstractClass_with_AbstractClasses {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Animal_1 a=new Animal_1()
+		Animal_1 a=new Animal_1()  //concrete class
 		{
 			@Override
 			public void sound()

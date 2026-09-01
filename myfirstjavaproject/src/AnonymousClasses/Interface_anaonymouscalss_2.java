@@ -15,6 +15,7 @@ public class Interface_anaonymouscalss_2 {
 				System.out.println("Car starts");
 				System.out.println(x);
 			}
+			
 				};
 				v.start();
 				System.out.println("hell");
