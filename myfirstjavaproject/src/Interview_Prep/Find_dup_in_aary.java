@@ -11,7 +11,7 @@ public class Find_dup_in_aary {
 			{
 				if(arr[i]==arr[j])
 				{
-					System.out.print(arr[i]+" ");
+					System.out.print(arr[j]+" ");
 					break;
 				}
 			}
