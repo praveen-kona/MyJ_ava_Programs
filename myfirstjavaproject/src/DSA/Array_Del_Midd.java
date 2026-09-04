@@ -18,7 +18,7 @@ public class Array_Del_Midd {
 		}
 		arr[size-1]=0;
 		size--;
-		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(Arrays.copyOf(arr, size)));
 
 	}
 
