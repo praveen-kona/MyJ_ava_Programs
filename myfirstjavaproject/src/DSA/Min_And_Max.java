@@ -4,7 +4,7 @@ public class Min_And_Max {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {};
+		int[] arr= {10, -5, 30, 20, -5, 40};
 		
 		if(arr.length==0)
 		{
@@ -16,7 +16,7 @@ public class Min_And_Max {
 			int min=arr[0];
 			int index=0;
 			int index_max=0;
-			for(int i=0;i<arr.length;i++)
+			for(int i=1;i<arr.length;i++)
 			{
 				if(arr[i]<min)
 				{
