@@ -3,7 +3,7 @@ package Strings;
 public class CountEachCharacterFrequcnecyInaStirng {
 	public static void main(String[] args)
 	{
-		String s="aabbbccccc";
+		String s="aacccccbbb";
 		int[] arr=new int[256];
 		for(int i=0;i<s.length();i++)
 		{
@@ -15,7 +15,7 @@ public class CountEachCharacterFrequcnecyInaStirng {
 		{
 			if(arr[i]!=0)
 			{
-				System.out.print((char)i+""+arr[i]);
+				System.out.println((char)i+" "+arr[i]);
 			}
 		}
 	}
