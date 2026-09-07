@@ -4,7 +4,7 @@ public class Array_Remove_dup {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = {10, 20, 30, 20, 40, 10, 20};
+		int[] arr = {1 ,1, 2, 3, 3, 4, 5, 5, 5};
 		 int[] uniq=new int[arr.length];
 		 int u=0;
 		 for(int i=0;i<arr.length;i++)
@@ -28,6 +28,7 @@ public class Array_Remove_dup {
 		{
 			System.out.println(uniq[i]);
 		}
+		System.out.println(uniq.length-u);
 
 	}
 
