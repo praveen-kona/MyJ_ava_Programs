@@ -8,7 +8,7 @@ public class IndexOutOfBoundsException_ {
 char[] ch= {'1','4','/','?'};
 System.out.println(ch[3]);
 try {
-	System.out.println(ch[9]);
+	System.out.println(ch[9]);  //java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 4
 }
 catch(Exception e)
 {

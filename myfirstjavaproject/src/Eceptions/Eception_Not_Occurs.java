@@ -1,24 +1,21 @@
 package Eceptions;
 
-public class ArithmeticException_ {
+public class Eception_Not_Occurs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a=10;
-		int b=0;
+		int b=20;
 		try {
 			System.out.println(a/b);
 		}
 		catch(Exception e)
 		{
-			System.out.println("	cant divide by zer o cause an exception");
 			System.out.println(e.toString());
-			
-			//java.lang.ArithmeticException: / by zero
 		}
 		finally
 		{
-			System.out.println("What ever happens happens da i dont care da");
+			System.out.println("hi ");
 		}
 
 	}
