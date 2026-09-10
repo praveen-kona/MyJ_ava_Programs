@@ -38,11 +38,8 @@ public class MinimumCostConverttoOneVowel {
 			{
 				min=cost;
 			}
-			
 		}
 		System.out.println(min);
-		
-		
 	}
 
 	public static void main(String[] args) {

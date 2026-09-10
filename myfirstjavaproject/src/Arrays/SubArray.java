@@ -1,5 +1,5 @@
 package Arrays;
-
+import java.util.*;
 public class SubArray {
 	static void subArray(int[] arr)
 	{
@@ -14,6 +14,7 @@ public class SubArray {
 				System.out.println();
 			}
 		}
+		System.out.println("Max subarray is : "+Arrays.toString(arr));
 	}
 
 	public static void main(String[] args) {
