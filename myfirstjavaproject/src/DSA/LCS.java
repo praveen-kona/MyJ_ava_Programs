@@ -25,7 +25,7 @@ public class LCS {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		lcs("abc","def");
+		lcs("abc","aef");
 		
 		/*
 		 "I used dynamic programming. I maintain a 2D table where dp[i][j] represents the length of the longest common subsequence of the first i characters of the first string and first j characters of the second string. If the current characters match, I add one to the diagonal value. Otherwise, I take the maximum of the top and left values. Finally, dp[n][m] gives the LCS length."
