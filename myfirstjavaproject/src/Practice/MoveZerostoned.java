@@ -1,32 +1,18 @@
 package Practice;
-
+import java.util.*;
 public class MoveZerostoned {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {0, 0, 20, 0, 30};
-		int nz=0;
-		int z=0;
-		while(nz<arr.length)
+		String s="hello java";
+		String[] str=s.split(" ");
+		String s2="";
+		for(int i=0;i<str.length;i++)
 		{
-			if(arr[nz]==0)
-			{
-				int temp=arr[nz];
-				arr[nz]=arr[z];
-				arr[z]=temp;
-				nz++;
-				z++;
-			}
-			else
-			{
-				nz++;
-			}
+			s2=str[i]+" "+s2;
 		}
-		for(int i=0;i<arr.length;i++)
-		{
-			System.out.println(arr[i]);
-		}
-
+		System.out.println(s2);
 	}
-
 }
+
+

@@ -2,7 +2,7 @@ package InterviewQustions.com;
 public class PerfectNumber {
 
 	public static void main(String[] args) {
-		int n=1;
+		int n=6;
 		int sum=0;
 		if(n<=0)
 		{

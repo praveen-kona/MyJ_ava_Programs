@@ -20,8 +20,9 @@ public class ArmstrongNumber {
 		while(n>0)
 		{
 			int rem=n%10;
-			n=n/10;
+			
 			sum=(int)(Math.pow(rem, count)+sum);
+			n=n/10;
 		}
 		if(sum==n1)
 		{
