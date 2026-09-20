@@ -5,7 +5,10 @@ public class Task1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s="hello";
-		s.concat("hi");
+		s=s.concat(" hi");
+		System.out.println(s);
+		String s2="hey0";
+		s=s.replaceAll(s,s2);
 		System.out.println(s);
 	}
 
