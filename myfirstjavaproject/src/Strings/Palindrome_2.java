@@ -28,6 +28,14 @@ public class Palindrome_2 {
 			System.out.println("not");
 		}
 
+		String s1 = "Programming";
+
+		System.out.println(s1.length());
+		System.out.println(s1.charAt(4));
+		System.out.println(s1.substring(3, 7));
+		System.out.println("apple".compareTo("banana"));
+		System.out.println("kana".compareTo("bpple"));
+
 	}
 
 }
