@@ -5,7 +5,7 @@ public class PrintExtensions {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s1="pass.jpg";
+		String s1="pass.gz.jpg";
 		String s2="file.txt";
 		String s3="photo.png";
 		String rev="";

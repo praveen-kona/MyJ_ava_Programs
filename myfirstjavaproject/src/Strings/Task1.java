@@ -8,7 +8,7 @@ public class Task1 {
 		s=s.concat(" hi");
 		System.out.println(s);
 		String s2="hey0";
-		s=s.replaceAll(s,s2);
+		s=s.replaceAll(s,"july");
 		System.out.println(s);
 	}
 
