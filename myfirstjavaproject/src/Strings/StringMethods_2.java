@@ -26,6 +26,26 @@ public class StringMethods_2 {
 		
 		System.out.println(s1.lastIndexOf("h"));
 		System.out.println(s1.indexOf("h"));
+		System.out.println(s1.charAt(1));
+		
+		String text="pass.png";
+		int dot=text.lastIndexOf(".");
+		System.out.println(text.substring(dot+1,text.length()));
+		
+		System.out.println(text.replaceAll(text,"hello Java"));
+		
+		System.out.println(text.replace("p","ji"));
+		
+		String cmp1="apple";
+		String cmp2="application";
+		System.out.println(cmp1.compareTo(cmp2));
+		
+		String ss="hello";
+		String ss2="hello";
+		System.out.println(ss2.hashCode());
+		System.out.println(ss.hashCode());
+		ss=ss+"hi";
+		System.out.println(ss.hashCode());
 
 	}
 
