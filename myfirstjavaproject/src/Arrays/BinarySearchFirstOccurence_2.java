@@ -1,33 +1,34 @@
 package Arrays;
 
-public class BinarySearch_2 {
+public class BinarySearchFirstOccurence_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {1,2,3,4,5,6,7,8,9};
+		int[] arr= {0,1,1,1,2,3,4,5,6};
 		int target=9;
-		BinarySearch_2 b=new BinarySearch_2();
-		int result=b.binarySearch(arr, target);
+		int result=binarySearch(arr,target);
 		if(result!=-1)
 		{
-			System.out.println("element found at index: "+result);
+			System.out.println("Elment found at index: "+result);
 		}
 		else
 		{
-			System.out.println("not"+result);
+			System.out.println("elemnt not found");
 		}
 
 	}
 
-	public  int binarySearch(int[] arr, int target) {
+	public  static int binarySearch(int[] arr, int target) {
 		int left=0;
 		int right=arr.length-1;
+		int result=-1;
 		while(left<=right)
 		{
 			int mid=(left+right)/2;
 			if(arr[mid]==target)
 			{
-				return mid;
+				result=mid;
+				right=mid-1;
 			}
 			else if(arr[mid]<target)
 			{
@@ -38,7 +39,7 @@ public class BinarySearch_2 {
 				right=mid-1;
 			}
 		}
-		return -1;
+		return result;
 	}
 
 }

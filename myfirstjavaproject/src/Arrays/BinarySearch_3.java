@@ -1,25 +1,25 @@
 package Arrays;
 
-public class BinarySearch_2 {
+public class BinarySearch_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {1,2,3,4,5,6,7,8,9};
-		int target=9;
-		BinarySearch_2 b=new BinarySearch_2();
-		int result=b.binarySearch(arr, target);
+		int[] arr= {5, 10, 15, 20, 25, 25, 25};
+		int target=25;
+		
+		int result=binarySearch(arr,target);
 		if(result!=-1)
 		{
-			System.out.println("element found at index: "+result);
+			System.out.println("Element found at index:"+result);
 		}
 		else
 		{
-			System.out.println("not"+result);
+			System.out.println("not found");
 		}
 
 	}
 
-	public  int binarySearch(int[] arr, int target) {
+	public static int binarySearch(int[] arr, int target) {
 		int left=0;
 		int right=arr.length-1;
 		while(left<=right)
