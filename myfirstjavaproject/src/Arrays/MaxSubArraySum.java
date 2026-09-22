@@ -4,7 +4,7 @@ public class MaxSubArraySum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {1, 2, 3, 2, 1};
+		int[] arr= {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 		int max=Integer.MIN_VALUE;
 		int count=0;
 		int target=5;
