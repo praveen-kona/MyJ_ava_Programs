@@ -4,8 +4,8 @@ public class MergeTwoSortedArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr1= {1,2,9};
-		int[] arr2= {3,4,5,6,7};
+		int[] arr1= {3,4,5};
+		int[] arr2= {1};
 
 		int[] merge=new int[arr1.length+arr2.length];
 		
