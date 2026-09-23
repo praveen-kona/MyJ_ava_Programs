@@ -46,6 +46,19 @@ public class StringMethods_2 {
 		System.out.println(ss.hashCode());
 		ss=ss+"hi";
 		System.out.println(ss.hashCode());
+		
+		int n=20;
+		double d=20.0;
+		boolean b=true;
+		char ch1='a';
+		String sss1=String.valueOf(n);
+		String sss2=String.valueOf(d);
+		String sss3=String.valueOf(b);
+		String sss4=String.valueOf(ch1);
+		System.out.println(sss1);
+		System.out.println(sss2);
+		System.out.println(sss3);
+		System.out.println(sss4);
 
 	}
 
