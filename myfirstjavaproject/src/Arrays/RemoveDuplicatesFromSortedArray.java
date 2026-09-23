@@ -1,11 +1,13 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class RemoveDuplicatesFromSortedArray
 {
     static int removedup(int[] arr)
     {
         int rd=0;
-        for(int i=1;i<arr.length;i++)
+        for(int i=0;i<arr.length;i++)
         {
             if(arr[i]!=arr[rd])
             {
@@ -18,7 +20,7 @@ public class RemoveDuplicatesFromSortedArray
     }
     public static void main(String[] args)
     {
-        int[] arr={2,3,2,4,3,6};
+        int[] arr={2,2,3,3,4,4,5,5,6};
          System.out.println("array elemnts before removing duplicate elments: ");
         for(int i=0;i<arr.length;i++)
         {
@@ -29,7 +31,7 @@ public class RemoveDuplicatesFromSortedArray
        System.out.println("After removing duplicates :");
        for(int i=0;i<rd;i++)
        {
-           System.out.print(arr[i]+" ");
+    	   System.out.println(arr[i]);
        }
     }
 }
