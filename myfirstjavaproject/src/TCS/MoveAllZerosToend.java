@@ -4,7 +4,7 @@ public class MoveAllZerosToend {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {1, 0, 2, 0, 4};
+		int[] arr= {4, 0, 1, 0,2};
 		int nz=0;
 		int z=0;
 		while(nz<arr.length)

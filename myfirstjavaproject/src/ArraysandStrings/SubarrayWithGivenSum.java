@@ -4,8 +4,8 @@ public class SubarrayWithGivenSum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = {1, 4, 20, 3, 10, 5};
-		int target = 33;
+		int[] arr = {1, 2, 3};
+		int target = 3;
 		int sum=0;
 		int left=0;
 		
