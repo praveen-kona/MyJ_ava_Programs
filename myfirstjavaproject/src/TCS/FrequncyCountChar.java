@@ -12,11 +12,13 @@ public class FrequncyCountChar {
 			int x=ch;
 			count[x]++;
 		}
-		for(int i=0;i<count.length;i++)
+		for(int i=0;i<s.length();i++)
 		{
-			if(count[i]!=0)
+			char ch=s.charAt(i);
+			if(count[ch]!=0)
 			{
-				System.out.println((char)i+" -> "+count[i]);
+				System.out.println(ch+" -> "+count[ch]);
+				count[ch]=0;
 			}
 		}
 
