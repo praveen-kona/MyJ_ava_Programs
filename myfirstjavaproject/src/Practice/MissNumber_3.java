@@ -12,7 +12,7 @@ public class MissNumber_3 {
 		}
 		int n=arr.length+1;
 		long expect_sum=n*(n+1)/2;
-		long mis=expect_sum-sum;
+		long mis=(long)(expect_sum-sum);
 		System.out.println(mis);
 
 	}
