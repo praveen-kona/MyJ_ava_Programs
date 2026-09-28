@@ -1,31 +1,30 @@
 package ArraysandStrings;
 
+
 public class FirstNonRepeat2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="aabbcdde";
+		String s="leetcode";
 		boolean isfound=false;
+		int []  count=new int[256];
 		for(int i=0;i<s.length();i++)
 		{
-			int count=0;
+			count[s.charAt(i)]++;
+		}
 			for(int j=0;j<s.length();j++)
 			{
-				if(s.charAt(i)==s.charAt(j))
+				if(count[s.charAt(j)]==1)
 				{
-					count++;
+					System.out.println(j);
+					isfound=true;
+					break;
 				}
-			}
-			if(count>1)
-			{
-				System.out.println(s.charAt(i));
-				isfound=true;
-				break;
-			}
+				
 		}
 		if(!isfound)
 		{
-			System.out.println("no non repaet");
+			System.out.println("-1");
 		}
 
 	}
