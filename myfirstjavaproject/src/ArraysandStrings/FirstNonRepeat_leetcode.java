@@ -1,7 +1,7 @@
 package ArraysandStrings;
 
 
-public class FirstNonRepeat2 {
+public class FirstNonRepeat_leetcode {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
