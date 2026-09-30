@@ -12,14 +12,14 @@ public class FirstNonRepeat_leetcode {
 		{
 			count[s.charAt(i)]++;
 		}
-			for(int j=0;j<s.length();j++)
+		for(int j=0;j<s.length();j++)
+		{
+			if(count[s.charAt(j)]==1)
 			{
-				if(count[s.charAt(j)]==1)
-				{
-					System.out.println(j);
-					isfound=true;
-					break;
-				}
+				System.out.println(j);
+				isfound=true;
+				break;
+			}
 				
 		}
 		if(!isfound)
