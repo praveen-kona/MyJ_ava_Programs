@@ -33,6 +33,7 @@ public class ReadusingFileinputStream {
 			
 		}
 		System.out.println();
+		System.out.println();
 		System.out.println(s);
 		fis.close();
 
