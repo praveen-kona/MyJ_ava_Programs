@@ -14,7 +14,7 @@ public class ReadUsingScanner {
 		while(sc.hasNextLine())
 		{
 				
-			
+			System.out.println(sc.nextLine());
 			s+=sc.nextLine()+"\n";
 					
 		}
