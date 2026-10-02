@@ -16,7 +16,7 @@ public class TryWithResources {
 			{
 				s1+=s+"\n";
 			}
-			System.out.println(s1.trim());
+			System.out.println(s1);
 		}
 	}
 
