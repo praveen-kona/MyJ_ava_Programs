@@ -17,7 +17,7 @@ public class WriteusingFileOutputStream {
 		{
 			fos.write(ch[i]);
 		}
-		fos.write('\n');
+		fos.write(90);
 		//only char values given
 		fos.write('j');//dir chaer
 		fos.write('\n');
