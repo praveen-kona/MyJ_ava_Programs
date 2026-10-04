@@ -14,6 +14,8 @@ public class TransientRead {
 		System.out.println(s.id);
 		System.out.println(s.name);
 		System.out.println(s.pwd);
+		System.out.println(Transient_Student.sid);
+		ois.close();
 		
 		System.out.println("successfully read !");
 		
