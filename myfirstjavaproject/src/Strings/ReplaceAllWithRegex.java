@@ -8,6 +8,7 @@ public class ReplaceAllWithRegex {
 		System.out.println(s.replaceAll("[0-9]+"," "));
 		System.out.println(s.replaceAll("\\d","#"));
 		System.out.println(s.replaceAll("\\w","123"));
+		System.out.println(s.replace("a",""));
 
 	}
 
