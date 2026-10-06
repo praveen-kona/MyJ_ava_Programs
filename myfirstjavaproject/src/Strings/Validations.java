@@ -9,6 +9,7 @@ public class Validations {
 		System.out.println(phone.matches("\\d{10}"));
 		System.out.println(phone.matches("[6-9]{1}[0-9]{9}"));
 		System.out.println("98700".matches("[0-9]{2,5}"));
+		System.out.println("aBCDEF".matches("[a-b]{1}[A-Z]{5}"));
 
 	}
 
