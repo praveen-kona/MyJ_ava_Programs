@@ -21,7 +21,7 @@ public class Task1Connectwithdb {
 		Statement stmt=con.createStatement();
 		 System.out.println("Statement created successfully");
 		 
-		 String sql="Select *from stu";
+		 String sql="Select *from student";
 		 ResultSet rs=stmt.executeQuery(sql);
 		 
 		 

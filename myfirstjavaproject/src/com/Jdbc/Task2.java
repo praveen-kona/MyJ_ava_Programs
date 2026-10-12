@@ -19,7 +19,7 @@ public class Task2 {
 		
 		Statement st=con.createStatement();
 		
-		int n=st.executeUpdate("insert into patient values(4,23,'hiv2','kiran')");
+		int n=st.executeUpdate("insert into patient values(5,23,'hiv2','kiran')");
 		
 		if(n>0)
 		{
