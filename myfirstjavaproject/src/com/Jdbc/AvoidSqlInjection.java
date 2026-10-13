@@ -17,6 +17,7 @@ public class AvoidSqlInjection {
 
 				
 	
+		
 			PreparedStatement ps=con.prepareStatement("select *from patient where pid=?");
 		
 //		ps.setInt(1, 8);
