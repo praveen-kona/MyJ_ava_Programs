@@ -17,7 +17,7 @@ public class AvoidSqlInjection {
 
 				
 	
-			PreparedStatement ps=con.prepareStatement("select *from patient where pid=? or '1'='1'and age=? or '1'='1'");
+			PreparedStatement ps=con.prepareStatement("select *from patient where pid=?");
 		
 //		ps.setInt(1, 8);
 //		ps.setInt(2, 45);
@@ -30,7 +30,9 @@ public class AvoidSqlInjection {
 //		else
 //			System.out.println("no ");
 			
+			ps.setInt(1, 1);
 			ResultSet rs=ps.executeQuery();
+			
 			
 			while(rs.next())
 			{
