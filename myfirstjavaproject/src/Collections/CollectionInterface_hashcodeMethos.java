@@ -19,6 +19,7 @@ public class CollectionInterface_hashcodeMethos {
 		c1.add(20);
 		c1.add(10);
 		System.out.println(c1.hashCode());
+		System.out.println(c.hashCode());
 	}
 
 }
