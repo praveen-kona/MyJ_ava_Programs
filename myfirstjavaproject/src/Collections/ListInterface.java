@@ -13,6 +13,8 @@ public class ListInterface {
 		l.add(null);
 		l.add(null);
 		System.out.println(l);
+		l.add(0,2);
+		System.out.println(l);
 	}
 
 }
